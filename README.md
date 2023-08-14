@@ -8,6 +8,8 @@ Please add everything about Java!
 ## 待分类
 [int和Integer的区别](/int_integer.md)
 
+[如何读取stdin](/stdin.md)
+
 ## 待完成
 常量池
 
