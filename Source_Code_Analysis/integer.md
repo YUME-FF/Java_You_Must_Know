@@ -2,6 +2,12 @@
 
 [SourceCode Link](https://github.com/openjdk/jdk/blob/master/src/java.base/share/classes/java/lang/Integer.java)
 
+# Table of Contents
+- [类定义](#类定义)
+- [构造函数](#构造函数)
+- [核心私有类](#核心私有类)
+- [主要静态方法](#主要静态方法)
+
 ## 类定义
 
 ```Java
@@ -28,7 +34,8 @@ public Integer(String s) throws NumberFormatException {
 + *this.value*是private final，即**不可被改变**。
 + 初始化时只能创建一个十进制整数。
 
-## *IntegerCache*
+## 核心私有类
+### ***IntegerCache***
 ```Java
 private static final class IntegerCache {
         static final int low = -128;
