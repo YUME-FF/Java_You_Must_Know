@@ -2,9 +2,8 @@
 
 The standard input(stdin) can be represented by System.in in Java. The System.in is an instance of the InputStream class. It means that all its methods work on bytes, not Strings. To read any data from a keyboard, we can use either a **Reader** class or **Scanner** class.
 
-
 ## BufferReader Example #1
-```
+```Java
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -35,7 +34,7 @@ public class BufferedReaderExample {
 ```
 
 ## Scanner Example #1
-```
+```Java
 import java.util.Scanner;
 
 public class ScannerExample {
@@ -64,7 +63,7 @@ public class ScannerExample {
 ```
 
 ## BufferReader Example #2 (with while loop)
-```
+```Java
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -85,7 +84,7 @@ public class BufferedReaderWhileLoopExample {
 ```
 
 ## Scanner Example #2 (with while loop)
-```
+```Java
 import java.util.Scanner;
 
 public class ScannerWhileLoopExample {
