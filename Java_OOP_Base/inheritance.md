@@ -11,7 +11,7 @@
 
 + Java 的继承是单继承，但是可以多重继承、不同类继承于同一类。**不可以多继承**
 
-```Mermaid
+```mermaid
 classDiagram
     A <|-- B
     C <|-- D
@@ -43,7 +43,7 @@ classDiagram
 ### *extends & implements*
 + 类与类的关系：*extends* **类继承一个类**
 + 类与接口的关系：*implements* **类实现多个接口** (*interface*)
-+ 接口与接口的关系：*extends* **接口继承多个接口 **
++ 接口与接口的关系：*extends* **接口继承多个接口**
 
 ### *super* 和 *this*
 + *super*：实现对父类成员的访问，用来引用当前对象的父类。
