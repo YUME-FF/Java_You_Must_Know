@@ -2,6 +2,13 @@
  
 Please add everything about Java!
 
+## Design Pattern
+
+## Java OOP Base
+[OOP](/Java_OOP_Base/oop.md)
+
+[inheritance](/Java_OOP_Base/inheritance.md)
+
 ## Source Code Analysis
 [Integer](/Source_Code_Analysis/integer.md)
 
