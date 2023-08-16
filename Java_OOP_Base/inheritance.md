@@ -116,5 +116,3 @@ class SubClass2 extends SuperClass{
   }
 }
 ```
-
-## 继承的好处
